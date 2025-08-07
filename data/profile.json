@@ -1,10 +1,12 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Vitor Caruso de Souza",
+  "photo": "https://avatars.githubusercontent.com/u/211409338?v=4",
+  "person": "Desenvolvedor Front-End",
+  "local": "São José do Rio Pardo-SP",
+  "phone": "(19) 99930-1686",
+  "email": "vitoorsouzaa123@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/vitor-caruso-de-souza-64629b367",
+  "github" : "https://github.com/Vitaosouzaa",
   "skills": {
     "hardSkills": [
       {
