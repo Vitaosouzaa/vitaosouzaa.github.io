@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
+    <title>Portifólio Vitor C. Souza</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
     <link rel="stylesheet" href="assets/css/languages.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
     <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-</head>
+    <link rel="stylesheet" href="assets/css/cursos.css">
 
+</head>
 <body>
     <main class="main">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+            <img class="photo" src="assets/image/1748205185558.jpeg" alt="Foto de Perfil" class="photo" id="profile.photo"> 
 
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
+            <h1 class="title">Olá,<br> eu sou <span id="profile.name">Carregando...</span></h1>
 
-            <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+            <section class="informations">
+                <p class="person" id="profile.person">Carregando...</p>
+                <p class="local" id="profile.local">Carregando...</p>
+                <p class="whatsapp">
+                    <a href="tel:(19)99330-1686" target="_blank" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                    <a href="mailto:vitoorsouzaa123@gmail.com" target="_blank" id="profile.email">Carregando...</a>
                 </p>
-            </div>
+                <p class="linkedin">
+                    <a href="https://www.linkedin.com/in/vitor-caruso-de-souza-64629b367" target="_blank" id="profile.linkedin">Carregando...</a>
+                </p>
+                <p class="github">
+                    <a href="https://github.com/Vitaosouzaa" target="_blank" id="profile.github">Carregando...</a>
+                </p>
+            </section>
         </header>
 
-        <section class="acordeon">
+        <section class="acordeon open">
             <button class="trigger" type="button">
-                <h2>Skills</h2>
+                <b>Habilidades</b> 
             </button>
 
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Ferramentas:</h3>
+                        <h3>Habilidades Profissionais</h3>
                         <ul id="profile.skills.hardSkills">
+                            <li>
+                                <img src="/assets/image/icons/css.svg" alt="CSS" title="CSS">
+                            </li>
+                            <li>
+                                <img src="/assets/image/icons/javaScript.svg" alt="javaScript" title="javaScript">
+                            </li>
+                            <li>
+                                <img src="/assets/image/icons/react.svg" alt="react" title="react">
+                            </li>
+                            <li>
+                                <img src="/assets/image/icons/node.svg" alt="node" title="node">
+                            </li>
+                            <li>
+                                <img src="/assets/image/icons/git.svg" alt="git" title="git">
+                            </li>
+                            <li>
+                                <img src="/assets/image/icons/github.svg" alt="github" title="github">
+                            </li>
                         </ul>
                     </section>
-
                     <section class="personal">
-                        <h3>Pessoal:</h3>
+                        <h3>Habilidades Pessoais</h3>
                         <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                             <li>Carregando...</li>
                             <li>Carregando...</li>
                             <li>Carregando...</li>
@@ -71,50 +89,115 @@
             </div>
         </section>
 
-        <section class="acordeon">
+        <section class="acordeon open">
             <button class="trigger" type="button">
-                <h2>Idiomas</h2>
+                <b>Cursos</b> 
             </button>
 
             <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
+                <ul class="courses">
+                    <li>
+                        <span class="title github">Programação e Desenvolvimento de Software</span>
+                        <span class="course">UNINTER - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Microsoft AI for Tech - Criando Prompts Inteligentes</span>
+                        <span class="course">DIO - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Savegnago - Lógica de Programação</span>
+                        <span class="course">DIO - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Bootcamp Ri-Happy Front-End</span>
+                        <span class="cursos">DIO - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Formação javaScript Developer</span>
+                        <span class="course">DIO - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Formação Node.js Fundamentals</span>
+                        <span class="course">DIO - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Orange Tech+</span>
+                        <span class="course">DIO - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Microsoft 50 Anos - GitHub Copilot</span>
+                        <span class="course">DIO - 2025</span>
+                    </li>
+                    <li>
+                        <span class="title github">Microsoft Copilot AI</span>
+                        <span class="course">DIO - 2025</span>
+                    </li>
+                    
                 </ul>
             </div>
         </section>
 
-        <section class="acordeon">
+        <section class="acordeon open">
             <button class="trigger" type="button">
-                <h2>Portfólio</h2>
+                <b>Idiomas</b> 
             </button>
 
             <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
+                <ul class="languages">
+                    <li >Portugues</li>
+                    <li>Inglês Intermediário</li>
                 </ul>
             </div>
         </section>
 
-        <section class="acordeon">
+        <section class="acordeon open">
             <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
+                <b>Projects</b> 
             </button>
 
             <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title github">API de Gerenciamento de Produtos</span>
+                        <a href="https://github.com/Vitaosouzaa/API-gerenciar-produtos" target="_blank">https://github.com/Vitaosouzaa/API-gerenciar-produtos</a>
+                    </li>
+                    <li>
+                        <span class="title github">E-Commerce</span>
+                        <a href="https://github.com/Vitaosouzaa/E-commerce" target="_blank">https://github.com/Vitaosouzaa/E-commerce</a>
+                    </li>
+                    <li>
+                        <span class="title github">Landing Page Multiverse: Spider-Man</span>
+                        <a href="https://github.com/Vitaosouzaa/Multiverse" target="_blank">https://github.com/Vitaosouzaa/Multiverse</a>
+                    </li>
+                    <li>
+                        <span class="title github">Yu-Gi-Oh Game</span>
+                        <a href="https://github.com/Vitaosouzaa/YuGiOh-Game2" target="_blank">https://github.com/Vitaosouzaa/YuGiOh-Game2</a>
+                    </li>
+                    <li>
+                        <span class="title github"> Validador de Bandeiras de Cartão de Crédito</span>
+                        <a href="https://github.com/Vitaosouzaa/Validador-de-cart-o-o" target="_blank">https://github.com/Vitaosouzaa/Validador-de-cart-o-o</a>
+                    </li>
+                    <li>
+                        <span class="title github">Pokedex com API</span>
+                        <a href="https://github.com/Vitaosouzaa/Pokedex-Api" target="_blank">https://github.com/Vitaosouzaa/Pokedex-Api</a>
+                    </li>
+                    <li>
+                        <span class="title github">Jogo da Memória</span>
+                        <a href="https://github.com/Vitaosouzaa/Jogo-da-memoria" target="_blank">https://github.com/Vitaosouzaa/Jogo-da-memoria</a>
+                    </li>
+                    <li>
+                        <span class="title github">Game Detona Ralph</span>
+                        <a href="https://github.com/Vitaosouzaa/game-detona-ralph" target="_blank">https://github.com/Vitaosouzaa/game-detona-ralph</a>
+                    </li>
+                    
                 </ul>
             </div>
         </section>
-
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
     </main>
 
-    <script src="assets/js/acordeon.js"></script>
-    <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
 
+    <script src="/assets/script/acordeon.js"></script>
+    <script src="/assets/script/api.js"></script>
+    <script src="/assets/script/main.js"></script>
+</body>
 </html>
