@@ -48,13 +48,43 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "API de Gerenciamento de Produtos",
+      "url": "https://github.com/Vitaosouzaa/API-gerenciar-produtos",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "E-Commerce",
+      "url": "https://github.com/Vitaosouzaa/E-commerce",
+      "github": true
+    },
+    {
+      "name": "Landing Page Multiverse: Spider-Man",
+      "url": "https://github.com/Vitaosouzaa/Multiverse",
+      "github": true
+    },
+    {
+      "name": "Yu-Gi-Oh Game",
+      "url": "https://github.com/Vitaosouzaa/YuGiOh-Game2",
+      "github": true
+    },
+    {
+      "name": "Validador de Bandeiras de Cartão de Crédito",
+      "url": "https://github.com/Vitaosouzaa/Validador-de-cart-o-o",
+      "github": true
+    },
+    {
+      "name": "Pokedex com API",
+      "url": "https://github.com/Vitaosouzaa/Pokedex-Api",
+      "github": true
+    },
+    {
+      "name": "Jogo da Memória",
+      "url": "https://github.com/Vitaosouzaa/Jogo-da-memoria",
+      "github": true
+    },
+    {
+      "name": "Game Detona Ralph",
+      "url": "https://github.com/Vitaosouzaa/game-detona-ralph",
       "github": true
     }
   ],
