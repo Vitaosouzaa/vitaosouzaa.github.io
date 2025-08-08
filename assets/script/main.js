@@ -42,6 +42,36 @@ function uptadeHardSkills(profileData){
     hardSkills.innerHTML =  profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('');
 }
 
+function uptadeLanguages(profileData) {
+    const languages = document.getElementById('profile.languages');
+
+    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
+}
+
+function uptadePortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio');
+
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        return `
+            <li>
+                <span ${project.github ? 'class="github"' : ''}">${project.name}</span>
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>`
+    }).join('');
+}
+
+function uptadeCourses(profileData) {
+    const courses = document.getElementById('profile.courses');
+
+    if (Array.isArray(profileData.courses)) {
+        courses.innerHTML = profileData.courses
+            .map(course => `<li> <span class="title github">${course.name}</span><span class="course">${course.institution}</span></li>`)
+            .join('');
+    } else {
+        courses.innerHTML = '<li>Nenhum curso encontrado.</li>';
+    }
+}
+
 
 
 (async () => {
@@ -49,4 +79,7 @@ function uptadeHardSkills(profileData){
     uptadeProfileInfo(profileData)
     uptadeSoftSkills(profileData)
     uptadeHardSkills(profileData)
+    uptadeCourses(profileData)
+    uptadeLanguages(profileData)
+    uptadePortfolio(profileData)
 })()
