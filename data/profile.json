@@ -53,7 +53,7 @@
       "github": true
     },
     {
-      "name": "E-Commerce",
+      "name": "E-Commerce com N8N",
       "url": "https://github.com/Vitaosouzaa/E-commerce",
       "github": true
     },
@@ -73,18 +73,18 @@
       "github": true
     },
     {
-      "name": "Pokedex com API",
-      "url": "https://github.com/Vitaosouzaa/Pokedex-Api",
+      "name": "Git-Find React.js",
+      "url": "https://github.com/Vitaosouzaa/Git-find.git",
       "github": true
     },
     {
-      "name": "Jogo da Memória",
-      "url": "https://github.com/Vitaosouzaa/Jogo-da-memoria",
+      "name": "Gerador de QRCODE com Node.js",
+      "url": "https://github.com/Vitaosouzaa/Gerador-de-QRCODE-com-Node.js.git",
       "github": true
     },
     {
-      "name": "Game Detona Ralph",
-      "url": "https://github.com/Vitaosouzaa/game-detona-ralph",
+      "name": "Carrinho de Compras Com Node.js",
+      "url": "https://github.com/Vitaosouzaa/Carrinho--de-Compras-Com-Node.js.git",
       "github": true
     }
   ],
